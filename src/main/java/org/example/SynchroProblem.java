@@ -11,11 +11,12 @@ public class SynchroProblem implements Runnable{
     public void run(){
         System.out.println("in  run method");
         for (int i=0;i<10;i++){
-            numList.add(50);
-            numList.add(40);
-            numList.add(30);
-            numList.add(20);
-            numList.add(10);
+//            numList.add(50);
+//            numList.add(40);
+//            numList.add(30);
+//            numList.add(20);
+//            numList.add(10);
+            numList.add(i);
             try{
                 Thread.sleep(50);
             }catch (InterruptedException e){
